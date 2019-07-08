@@ -1,0 +1,65 @@
+/* base */
+
+.g_container{
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.g_row{
+    clear: both;
+    overflow: hidden;
+}
+
+.g_col{
+    float: left;
+}
+
+.g_col.col_1{
+    width: 8.33%;
+}
+
+.g_col.col_2{
+    width: 16.66%;
+}
+
+.g_col.col_3{
+    width: 25%; /* 24.99 % ? */
+}
+
+.g_col.col_4{
+    width: 33.33%; /* 33.32 % ? */
+}
+
+.g_col.col_6{
+    width: 50%;
+}
+
+/*extra */
+
+.g_col.col_5{
+    width: 41.65%;
+}
+
+.g_col.col_7{
+    width: 58.31%;
+}
+
+.g_col.col_8{
+    width: 66.64%;
+}
+
+.g_col.col_9{
+    width: 74.97%;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1000px){
+	
+    .g_col{
+        width: 100% !important;
+        clear: both !important;
+    }
+
+}

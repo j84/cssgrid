@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="grid.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        img{
+            max-width: 100%;
+        }
+
+        .g_container{
+            max-width: 1280px;
+            margin-bottom: 30px;
+        }
+        .g_row{
+            border: 1px solid red;
+        }
+        
+        .g_col{
+            background: grey;
+        }
+        
+        .g_col:nth-child(2n+1){
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>BASE</h1>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_3">col 3</div>
+            <div class="g_col col_3">col 3</div>
+            <div class="g_col col_3">col 3</div>
+            <div class="g_col col_3">col 3</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_4">col 4</div>
+            <div class="g_col col_4">col 4</div>
+            <div class="g_col col_4">col 4</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_6">col 6</div>
+            <div class="g_col col_6">col 6</div>
+        </div>
+    </div>
+    
+    <h1>COMBINAISONS</h1>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_3">col 3</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+            <div class="g_col col_1">col 1</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_4">col 4</div>
+            <div class="g_col col_4">col 4</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_6">col 6</div>
+            <div class="g_col col_3">col 3</div>
+            <div class="g_col col_3">col 3</div>
+        </div>
+    </div>
+    
+    <h1>EXTRAS</h1>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_5">col 5</div>
+            <div class="g_col col_6">col 6</div>
+            <div class="g_col col_1">col 1</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_7">col 7</div>
+            <div class="g_col col_5">col 5</div>
+        </div>
+    </div>
+    
+    <div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_8">col 8</div>
+            <div class="g_col col_2">col 2</div>
+            <div class="g_col col_2">col 2</div>
+        </div>
+    </div>
+	
+	<div class="g_container">
+        <div class="g_row">
+            <div class="g_col col_9">col 9</div>
+            <div class="g_col col_3">col 3</div>
+        </div>
+    </div>
+    
+</body>
+</html>
