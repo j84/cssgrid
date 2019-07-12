@@ -1,3 +1,8 @@
+/*
+ * TODO
+ *
+ */
+
 /* base */
 
 .g_container{
@@ -22,7 +27,8 @@
 
 .g_col.col_2{
     width: 16.66%;
-}
+}
+
 .g_col.col_3{
     width: 25%; /* 24.99 % ? */
 }
@@ -57,9 +63,16 @@
 
 @media only screen and (max-width: 1000px){
     
-    .g_col{
+    .g_row.mob_hide, .g_col.mob_hide{
+        display: none;
+    }
+	
+    .g_col:not(.mob_original_width){
         width: 100% !important;
-        clear: both !important;
     }
     
+    .g_col.mob_fifty_width{
+        width: 50% !important;
+    }
+
 }
